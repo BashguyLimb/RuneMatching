@@ -22,9 +22,10 @@ public class MinigameCore : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "BashCore",
+				"Core", "BashCore", "LimbitlessBluetoothPlugin",
 				"LevelSequence", "MovieScene",
-				"UMG", "InputCore", "EnhancedInput"
+				"UMG", "InputCore", "EnhancedInput", "CustomizableObject",
+				"AIModule"
 			}
 			);
 			
